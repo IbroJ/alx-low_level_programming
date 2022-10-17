@@ -8,10 +8,10 @@ int main(void)
 {
 	char lc;
 
-	for (lc = 'a'; lc <= 'z' lc++)
-	{
-		putchar(lc);
-	}
-	putchar('\n');
+	lc = 'a';
+	while
+		(lc <= 'z') {
+			putchar(lc);
+		}
 	return (0);
 }
