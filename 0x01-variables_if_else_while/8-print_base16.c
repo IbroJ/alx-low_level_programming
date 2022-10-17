@@ -6,18 +6,12 @@
  */
 int main(void)
 {
-	char c;
-	
-	int d;
-	c = 'a';
+	int c;
+
+	c = 0;
 	while
-		(d < 10) {
-			putchar(d + '0');
-			d++;
-		}
-	while 
-		(c <= 'f') {
-		putchar(c);
+		(c < 10) {
+			putchar(c + '0');
 			c++;
 		}
 	putchar('\n');
