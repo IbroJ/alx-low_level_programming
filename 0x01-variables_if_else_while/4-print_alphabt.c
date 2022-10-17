@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (success)
  */
-int main(void)
+int main(void)1
 {
 	char c;
 
@@ -13,7 +13,7 @@ int main(void)
 	while
 		(c <= 'z') {
 			if ((c != 'q' && c != 'e') && c <= 'z')
-				putchar(c)
+				putchar(c);
 			c++;
 		}
 	putchar('\n');
